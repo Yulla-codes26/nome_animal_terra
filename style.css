@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #38215c;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 25px 8%;
+}
+
+.logo {
+    background-color: #6c3fc5;
+    color: white ;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.nome-logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.inicio {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.etiqueta {
+    background-color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 25px 0 15px;
+    color: #38215c;
+}
+
+h1 span {
+    color: #6c3fc5;
+}
+
+.descricao {
+    font-size: 17px;
+    color: 66557D; 
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.principal {
+    background-color: #6c3fc5;
+    color: white;
+}
+
+.secundario {
+    background-color: white;
+    color: #6c3fc5;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
+
+.informacao {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.cartao-jogo {
+    background-color: white;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(56, 33, 92, 0.10);
+}
+
+.letra {
+    background-color: #ffd6e6;
+    color: #6c3fc5;
+    font-size: 55px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+.cartao-jogo h2 {
+    margin-bottom: 12px;
+}
+
+.cartao-jogo p {
+    color: #66557D;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.categorias span {
+    background-color: #f0e9ff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.opcoes {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.opcoes p {
+    margin-top: 10px;
+    color: #66557D;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #66557D;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 5%;
+    }
+
+    .container {
+        width: 92%;
+        margin: 25px auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .descricao {
+        font-size: 15px;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .botao {
+        text-align: center;
+    }
+
+    .informacao {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
