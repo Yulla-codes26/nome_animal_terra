@@ -1,0 +1,1 @@
+console.log("Nome, Animal, Terra esta a funcionar!");
